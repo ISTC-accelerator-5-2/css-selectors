@@ -1,0 +1,22 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes */
+
+div {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+}
+
+/* pseudo-class syntax
+selector:psedo-class {} */
+
+.my-div:hover {
+  background-color: red;
+}
+
+.text-input:focus {
+  background-color: aqua;
+}
+
+.checkbox-input:checked {
+  visibility: hidden;
+}
