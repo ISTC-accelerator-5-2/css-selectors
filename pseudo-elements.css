@@ -1,0 +1,38 @@
+/* Pseudo elements
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements */
+
+/* syntax
+selector::pseudo-element {} */
+
+p {
+  color: red;
+}
+
+p::first-line {
+  color: blue;
+}
+
+p::first-letter {
+  color: yellow;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p::selection {
+  background-color: teal;
+}
+
+input::placeholder {
+  color: red;
+}
+
+a::before {
+  content: "👺";
+  font-size: 30px;
+}
+
+a::after {
+  content: "👹";
+}
