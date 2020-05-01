@@ -1,0 +1,65 @@
+/* CSS selectors
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors */
+
+/* universal selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Tag/type selector */
+/* p {
+  color: red;
+} */
+
+/* class selector */
+.class-selector {
+  color: blue;
+}
+
+/* id selector */
+#id-selector {
+  color: orange;
+}
+
+/* attribute selector */
+/* selector[attr-name:attr-value] {} */
+input[type="text"] {
+  background-color: blue;
+}
+
+input[type="password"] {
+  background-color: red;
+}
+
+input[type="email"] {
+  background-color: orange;
+}
+
+/* Grouping selector */
+/* span, p {
+  color: red;
+} */
+
+/* Descendant combinator */
+div.parent {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+}
+
+div.parent div {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
+
+
+/* Child combinator */
+/* .big-div > span {
+  color: red;
+} */
+
+span ~ p {
+  color: red;
+}
